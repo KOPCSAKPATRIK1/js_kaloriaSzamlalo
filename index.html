@@ -12,7 +12,7 @@
 <body>
     
     <br>
-    <div class="container">
+    <div class="container body">
         <div class="row">
             <div class="col-sm-12">
                 <h1>Kalória számláló</h1>
@@ -21,32 +21,50 @@
         <br>
         <div class="row">
             <div class="col-sm-3">
-                <img id="szendvics" src="http://www.mfstudium.hu/kepek/2015/09/penesz.jpg" alt="hamburger" srcset="" width="300px">
+                <img id="szendvics" src="http://www.mfstudium.hu/kepek/2015/09/penesz.jpg" alt="hamburger" srcset="" width="300px" height="200px">
             </div>
             <div class="col-sm-3">
-                <img id="kenyer" src="https://static.femina.hu/gyerek/romlott_etel/peneszes_kenyer.jpg" alt="kenyer" width="300px">
+                <img id="kenyer" src="https://static.femina.hu/gyerek/romlott_etel/peneszes_kenyer.jpg" alt="kenyer" width="300px" height="200px">
             </div>
             <div class="col-sm-3">
-                <img id="sor" src="https://idrinks.cdn.shoprenter.hu/custom/idrinks/image/data/product/Sor/Premium/idrinks-hoegaarden-palackos-033.jpg?lastmod=1655666518.1651750672" alt="sorike" width="300px">
+                <img id="sor" src="https://idrinks.cdn.shoprenter.hu/custom/idrinks/image/data/product/Sor/Premium/idrinks-hoegaarden-palackos-033.jpg?lastmod=1655666518.1651750672" alt="sorike" width="300px" height="200px">
             </div>
             <div class="col-sm-3">
-                <img id="hell" src="https://idrinks.cdn.shoprenter.hu/custom/idrinks/image/data/product/Sor/idrinks-hell-classic-energiaital-dobozos-250ml.jpg?lastmod=1663313986.1651750672" alt="hell" srcset="" width="300px">
+                <img id="hell" src="https://idrinks.cdn.shoprenter.hu/custom/idrinks/image/data/product/Sor/idrinks-hell-classic-energiaital-dobozos-250ml.jpg?lastmod=1663313986.1651750672" alt="hell" srcset="" width="300px" height="200px">
             </div>
         </div>
         <br>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <button id="visszaAllit" type="button" class="btn btn-secondary">Visszaállít</button>
+                <p id="osszKaloria"></p>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <br>
         <div class="row nevek">
-            <div class="col-sm-3">
-                <p>Szendvics</p>
+            <div class="col-sm-3 ">
+                <p>Szendvics 300kcal</p>
             </div>
             <div class="col-sm-3">
-                <p>Kenyér</p>
+                <p>Kenyér 100kcal</p>
             </div>
             <div class="col-sm-3">
-                <p>Sör</p>
+                <p>Sör 500kc</p>
             </div>
             <div class="col-sm-3">
-                <p>Hell</p>
+                <p>Hell 750kcal</p>
             </div>
+        </div>
+        <div class="row" >
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <ul class="list-group lista" id="lista">
+                    <li class="list-group-item list-group-item-dark">Kiválasztott Ételek</li>
+                </ul>                
+            </div>
+            <div class="col-sm-4"></div>
         </div>
     </div>
     
